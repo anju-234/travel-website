@@ -1,0 +1,90 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero {
+    background-image: url('https://img.freepik.com/premium-photo/breathtaking-high-mountain-ranges-landscape_810293-107660.jpg');
+}
+
+.about {
+    background-image: url('https://th.bing.com/th/id/OIP.5F3_grXklEzxI3DwQneMrAHaEK?w=311&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7');
+}
+
+.destinations {
+    background-image: url('https://th.bing.com/th/id/R.de25f97ef7e6bd33ea3020a94acaeb9d?rik=i9TpH%2fji%2bEuLwA&riu=http%3a%2f%2fcdn.onlyinyourstate.com%2fwp-content%2fuploads%2f2017%2f12%2f18805524786_d8e8aaa84c_k.jpg&ehk=Xw5xCye9ijQimUxDnNIcQXZjXOd1jeKRdgmVV5%2fCEZU%3d&risl=&pid=ImgRaw&r=0');
+}
+
+.tips {
+    background-image: url('https://th.bing.com/th/id/OIP.k-XaajNK6AsJlXPHwyTlQwHaE8?w=279&h=186&c=7&r=0&o=5&dpr=1.5&pid=1.7');
+}
+
+.contact {
+    background-image: url('https://mljdb885ttsd.i.optimole.com/w:1024/h:469/q:mauto/id:1af6715135cdb10a7ae903505ac0e5ad/https://www.7thheavenproperties.com/costa-rica-beach.jpg');
+}
+
+.content {
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    
+}
+.destinations-list, .tips-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.destination, .tip {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+}
+.destination{
+    text-align: center;
+}
+.travel,.destination{
+     height: 200px;
+    font-family: "Kalnia Glaze", serif;
+    font-size: larger;
+    background-color: bisque;
+    
+    
+}
+.destination{
+    height: 300px;
+    background-color: aquamarine;
+}
+.destination:hover{
+    box-shadow: 2px 4px 6px brown;
+}
+.Name,.explore,.tips{
+    background-color: bisque;
+}
+.Name,p{
+    font-style: italic;
+    font-weight: bolder;
+}
+.travel:hover{
+    text-shadow: 2px 4px 6px whitesmoke;
+}
+.explore{
+    height: 1150px;
+   }
+   .tip{
+    box-shadow: 2px 4px 6px skyblue;
+   }
